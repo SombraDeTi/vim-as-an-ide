@@ -75,6 +75,12 @@ set showcmd
 set incsearch
 set hlsearch
 
+" Expand tabs to 4 spaces
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
 syntax on
 
 set mouse=a
@@ -90,7 +96,7 @@ hi clear SignColumn
 set background=dark
 
 " Uncomment the next line if your terminal is not configured for solarized
-"let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 
 " Set the colorscheme
 colorscheme solarized
